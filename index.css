@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: lightblue;
+}
+
+#top-bar {
+    background-color: whitesmoke;
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#top-bar-title { 
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+#top-bar-title > img { 
+    filter: opacity(50%);
+    width: 1.5em;
+    padding-bottom: 5px;
+}
+
+#top-bar-title > img:hover { 
+    filter: opacity(100%);
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+    width: 62vw;
+}
+
+label {
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 1.2em;
+    width: 28vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 4px solid transparent;
+    color: darkgray;
+}
+
+a:hover {
+    color: turquoise;
+    border-bottom: 4px solid turquoise;
+}
