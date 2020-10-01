@@ -24,6 +24,7 @@ header {
 main {
     font-family: serif;
     background-color: lightblue;
+    padding-bottom: 50px;
     z-index: -10;
 }
 
@@ -206,4 +207,24 @@ a:hover {
 
 a:active {
     opacity: 0.7;
+}
+
+footer {
+    background-color: turquoise;
+    height: 30vh;
+}
+
+#footer-info {
+    position: relative;
+    top: 1%;
+    height: 99%;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+#footer-info > p{
+    position: relative;
+    top: 40%;
+    text-align: center;
+    font-weight: bold;
 }
