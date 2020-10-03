@@ -1,5 +1,5 @@
 body {
-    max-width: 1400px;
+    max-width: 1500px;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ header {
     left: 2%;
     font-style: italic;
     font-weight: 600;
-    font-family: cursive;
+    font-family: cursive, sans-serif;
     font-size: 1.5em;
     padding-right: 220px;
     padding-top: 5px;
