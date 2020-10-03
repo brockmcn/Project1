@@ -33,7 +33,7 @@ header {
     background-color: red;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -44,8 +44,8 @@ header {
 }
 
 #close-button {
-    margin-bottom: 4px;
-    margin-right: 5px;
+    position: absolute;
+    right: 1%;
     vertical-align: middle;
     border: 1px solid whitesmoke;
     border-radius: 5px;
