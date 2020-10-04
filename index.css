@@ -271,7 +271,7 @@ footer {
     }
 
     nav {
-        display: none;
+        display: flex;
         position: absolute;
         top: 100%;
         right: 0;
@@ -285,9 +285,11 @@ footer {
     }
 
     nav > a {
+        width: 40vw;
+        box-sizing: border-box;
         flex-direction: column;
         padding: 10px;
-        padding-right: 40px;
+        padding-right: 80px;
         border: 1px solid darkgray;
     }
 
