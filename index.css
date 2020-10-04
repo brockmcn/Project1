@@ -31,22 +31,25 @@ header {
 
 #warning {
     background-color: red;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    height: 5vh;
+    display: grid;
+    grid-template-columns: 2;
+    grid-template-rows: 1;
+    align-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 #warning > p {
-    padding-left: 5px;
+    grid-column: 1;
+    column-width: 90vw;
     color: whitesmoke;
     font-weight: bold;
 }
 
 #close-button {
-    position: absolute;
-    right: 1%;
-    vertical-align: middle;
+    grid-column: 2;
+    column-width: 10vw;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     background-color: red;
