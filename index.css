@@ -42,14 +42,14 @@ header {
 
 #warning > p {
     grid-column: 1;
-    column-width: 90vw;
+    column-width: 90%;
     color: whitesmoke;
     font-weight: bold;
 }
 
 #close-button {
     grid-column: 2;
-    column-width: 10vw;
+    column-width: 10%;
     border: 1px solid whitesmoke;
     border-radius: 5px;
     background-color: red;
