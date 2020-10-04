@@ -301,11 +301,15 @@ footer {
         border: none;
         background-color: whitesmoke;
         outline: none;
-        right: 1%;
+        right: 0;
         font-size: 3em;
     }
     
     #civsalu > p {
         display: none;
+    }
+
+    #footer-info {
+        font-size: 1.5em;
     }
 }
