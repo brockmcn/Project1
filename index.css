@@ -249,7 +249,7 @@ footer {
 
 @media (max-width: 900px) {
     body {
-        width: 122vw;
+        width: 100vw;
     }
 
     #warning > p {
