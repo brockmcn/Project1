@@ -271,6 +271,7 @@ footer {
     }
 
     nav {
+        max-width: 100px;
         display: none;
         position: absolute;
         top: 100%;
@@ -285,12 +286,11 @@ footer {
     }
 
     nav > a {
-        width: 40vw;
-        box-sizing: border-box;
         flex-direction: column;
         padding: 10px;
-        padding-right: 80px;
         border: 1px solid darkgray;
+        text-align: left;
+        font-size: 1.2em;
     }
 
     a:hover {
