@@ -1,0 +1,39 @@
+footer {
+    background-color: darkgray;
+    height: 20vh;
+}
+
+#footer-info {
+    position: relative;
+    top: 2%;
+    height: 98%;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#footer-info > ul {
+    text-align: center;
+    list-style-type: none;
+    width: 50%;
+}
+
+#footer-info > ul >li {
+    padding: 5px;
+    font-size: 0.5em;
+    font-weight: normal;
+}
+
+#copyright {
+    color: whitesmoke;
+    background-color: rgb(50, 50, 50);
+    text-align: center;
+    margin-top: 3px;
+    padding: 5px;
+    border-top: 2px solid darkgray;
+}

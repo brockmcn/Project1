@@ -1,0 +1,93 @@
+header {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 0 8px 6px -6px gray;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 10;
+}
+
+#top-bar-title { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#civsalu > p {
+    position: relative;
+    left: 2%;
+    font-style: italic;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5em;
+    padding-right: 220px;
+    padding-top: 5px;
+}
+
+#civsalu > img {
+    position: relative;
+    width: 6em;
+    padding-top: 10px;
+    left: 3%
+}
+
+#civsalu {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2em;
+    letter-spacing: 3px;
+}
+
+#top-bar-title > p:last-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: darkgray;
+    font-weight: bolder;
+    font-size: 1.2em;
+    padding-right: 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    width: 25vw;
+    font-size: 2em;
+    text-decoration: none;
+    font-weight: bolder;
+    border-bottom: 4px solid transparent;
+    color: darkgray;
+}
+
+a:hover {
+    color: turquoise;
+    border-bottom: 3px solid turquoise;
+}
+
+a:active {
+    opacity: 0.7;
+}
+
+#menu-button {
+    display: none;
+}
