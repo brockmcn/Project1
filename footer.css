@@ -29,11 +29,21 @@ footer {
     font-weight: normal;
 }
 
-#copyright {
+#copyright > p {
+    margin: 0;
+    padding: 8px;
+    width: 100%;
     color: whitesmoke;
     background-color: rgb(50, 50, 50);
     text-align: center;
-    margin-top: 3px;
-    padding: 5px;
-    border-top: 2px solid darkgray;
+    align-content: center;
+
+}
+
+#copyright {
+    background-color: darkgray;
+    height: 5vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }

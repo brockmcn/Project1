@@ -9,6 +9,7 @@ h2 {
     color: whitesmoke;
     font-size: 2em;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 main {
@@ -24,22 +25,22 @@ main {
 }
 
 .portrait {
-    padding: 10px;
     position: relative;
     width: 25vw;
     height: 25vw;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 20px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    border-radius: 50%;
 }
 
 .portrait > img {
     object-fit: cover;
     object-position: top;
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     border: 2px solid black;
     border-radius: 50%;
 }
@@ -52,6 +53,7 @@ figcaption {
     background-color: whitesmoke;
     opacity: 0.8;
     padding: 15px;
+    z-index: 2;
 }
 
 figcaption > p {
