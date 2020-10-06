@@ -31,13 +31,11 @@ footer {
 
 #copyright > p {
     margin: 0;
-    padding: 8px;
     width: 100%;
+    height: 85%;
     color: whitesmoke;
     background-color: rgb(50, 50, 50);
     text-align: center;
-    align-content: center;
-
 }
 
 #copyright {
