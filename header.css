@@ -49,9 +49,10 @@ header {
     align-items: center;
 }
 
-h1 {
-    font-size: 2em;
+#civsalu > a {
     letter-spacing: 3px;
+    text-decoration: none;
+    color: inherit;
 }
 
 #top-bar-title > p:last-child {
@@ -70,7 +71,7 @@ nav {
     justify-content: space-around;
 }
 
-a {
+nav > a {
     width: 25vw;
     font-size: 2em;
     text-decoration: none;
@@ -79,12 +80,12 @@ a {
     color: darkgray;
 }
 
-a:hover {
+nav > a:hover {
     color: turquoise;
     border-bottom: 3px solid turquoise;
 }
 
-a:active {
+nav > a:active {
     opacity: 0.7;
 }
 
