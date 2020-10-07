@@ -98,3 +98,50 @@ nav > a:active {
 #menu-button {
     display: none;
 }
+
+@media (max-width: 900px) {
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        max-width: 100px;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        flex-direction: column;
+        background-color: whitesmoke;
+        margin-top: 1px;
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav > a {
+        flex-direction: column;
+        padding: 10px;
+        border: 1px solid darkgray;
+        text-align: left;
+        font-size: 1.2em;
+    }
+
+    a:hover {
+        border-bottom: 1px solid darkgray;
+    }
+
+    #menu-button {
+        position: absolute;
+        display: block;
+        padding-bottom: 5px;
+        padding-right: 5px;
+        background-color: whitesmoke;
+        right: 0;
+        font-size: 3em;
+    }
+    
+    #civsalu > p {
+        display: none;
+    }
+}
