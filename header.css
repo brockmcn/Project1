@@ -143,10 +143,6 @@ nav > a:active {
         right: 0;
         font-size: 3em;
     }
-
-    #menu-button:hover {
-        cursor: pointer;
-    }
     
     #civsalu > p {
         display: none;
