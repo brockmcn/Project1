@@ -1,6 +1,6 @@
 footer {
     background-color: darkgray;
-    height: 30vh;
+    height: 200px;
     display: flex;
     flex-direction: column;
 }
