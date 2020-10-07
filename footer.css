@@ -8,7 +8,7 @@ footer {
 #footer-info {
     position: relative;
     top: 2%;
-    height: 25vh;
+    height: 85%;
     background-color: rgb(50, 50, 50);
     color: whitesmoke;
     display: flex;
@@ -35,8 +35,9 @@ footer {
 #copyright {
     margin: 0;
     background-color: rgb(50, 50, 50);
-    height: 5vh;
+    height: 15%;
     width: 100%;
     color: whitesmoke;
     text-align: center;
+    padding-bottom: 5px;
 }
