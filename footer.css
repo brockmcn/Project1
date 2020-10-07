@@ -1,12 +1,14 @@
 footer {
     background-color: darkgray;
-    height: 20vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
 }
 
 #footer-info {
     position: relative;
     top: 2%;
-    height: 98%;
+    height: 25vh;
     background-color: rgb(50, 50, 50);
     color: whitesmoke;
     display: flex;
@@ -34,6 +36,8 @@ footer {
     margin: 0;
     background-color: rgb(50, 50, 50);
     height: 5vh;
+    width: 100%;
     color: whitesmoke;
     text-align: center;
+    padding-bottom: 5px;
 }
