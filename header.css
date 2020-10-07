@@ -61,6 +61,10 @@ header {
     color: inherit;
 }
 
+#civsalu > a:active {
+    text-decoration: none;
+}
+
 #top-bar-title > p:last-child {
     display: flex;
     flex-direction: row;
