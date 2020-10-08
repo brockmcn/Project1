@@ -108,7 +108,6 @@ nav > a:active {
     }
 
     nav {
-        max-width: 100px;
         display: none;
         position: absolute;
         top: 100%;
