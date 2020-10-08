@@ -33,12 +33,6 @@ body {
     cursor: pointer;
 }
 
-main {
-    font-family: serif;
-    background-color: lightblue;
-    padding-bottom: 50px;
-}
-
 .infogram {
     margin: auto;
     margin-top: 50px;
