@@ -35,23 +35,27 @@
         <div id="form-container">
             <h3>Create your Civsalu Account</h3>
             <div id="form">
+                <h4>Patient Information</h4>
                 <div id="fname">
-                    <input type="text" autocomplete="off">
-                    <label>First name</label>
+                    <input type="text" id="fname-input" autocomplete="off">
+                    <label>First Name</label>
                 </div>
                 <div id="lname">
-                    <input type="text" autocomplete="off">
+                    <input type="text" id="lname-input" autocomplete="off">
                     <label>Last name</label>
                 </div>
                 <div id="email">
-                    <input type="text" autocomplete="off">
+                    <input type="text" id="email-input" autocomplete="off">
                     <label>Email address</label>
                 </div>
                 <div id="phone">
-                    <input type="text" autocomplete="off">
+                    <input type="text" id="phone-input" autocomplete="off">
                     <label>Phone number</label>
                 </div>
-
+                <div id="conditions">
+                    <textarea id="conditions-input"></textarea>
+                    <label>Conditions</label>
+                </div>
 
                 <button id="submit">Submit</button>
             </div>
@@ -78,4 +82,5 @@
     </footer>
 
     <script src="header.js"></script>
+    <script src="portal.js"></script>
 </body>

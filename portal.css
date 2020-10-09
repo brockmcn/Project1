@@ -1,7 +1,7 @@
 #form-container {
     margin: auto auto;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background-color: rgb(50, 50, 50);
     color: whitesmoke;
 }
@@ -10,23 +10,35 @@ h3 {
     margin: 0;
     padding-top: 20px;
     padding-left: 20px;
-    padding-bottom: 10px;
-    font-size: 1.5em;
+    padding-bottom: 5px;
+    font-size: 2em;
+    text-align: center;
 }
 
-input {
+h4 {
+    margin: 0;
+    margin-left: 1px;
+    margin-bottom: 6px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: left;
+}
+
+input, textarea {
+    font-size: 1.2em;
+    padding: 3px;
     border: 2px solid darkgray;
     border-radius: 3px;
     background: transparent;
     color: whitesmoke;
 }
 
-input:focus {
+input:focus, textarea:focus {
     outline: none;
     border: 2px solid turquoise;  
 }
 
-input:focus + label {
+input:focus + label, #conditions > textarea:focus + label {
     bottom: 100%;
     color: turquoise;
     transition: all 0.2s ease-in-out;
@@ -37,9 +49,21 @@ input:focus + label {
     display: grid;
     grid-template-columns: auto auto;
     padding: 20px;
-    width: 90%;
-    gap: 15px 10px;
+    gap: 12px 10px;
     color: whitesmoke;
+    justify-items: center;
+}
+
+#conditions {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+    height: 150px;
+    font-family: sans-serif;
 }
 
 #submit {
@@ -58,15 +82,22 @@ input:focus + label {
 
 #submit:hover {
     cursor: pointer;
-    background-color: rgb(25, 25, 25);
+    background-color: rgb(40, 40, 40);
 }
 
 #submit:active {
-    background-color: rgb(75, 75, 75);
+    background-color: rgb(60, 60, 60);
+    border: 2px solid turquoise;
+    color: turquoise;
 }
 
 #submit:focus {
     outline: none;
+}
+
+#conditions > label {
+    bottom: 85%;
+    left: 2%;
 }
 
 label {
