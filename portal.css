@@ -25,7 +25,7 @@ h4 {
 }
 
 input, textarea {
-    max-width: 207px;
+    width: 80%;
     font-size: 1.2em;
     padding: 3px;
     border: 2px solid darkgray;
