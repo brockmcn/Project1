@@ -25,7 +25,6 @@ h4 {
 }
 
 input, textarea {
-    width: 80%;
     font-size: 1.2em;
     padding: 3px;
     border: 2px solid darkgray;
@@ -53,6 +52,10 @@ input:focus + label, #conditions > textarea:focus + label {
     gap: 12px 10px;
     color: whitesmoke;
     justify-items: center;
+}
+
+#fname {
+    width: 207px;
 }
 
 #conditions {
