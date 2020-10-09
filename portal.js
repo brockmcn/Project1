@@ -5,9 +5,9 @@ inputs = [
     document.getElementById("phone-input"),
     document.getElementById("conditions-input")
 ]
-
 submitButton = document.getElementById("submit")
 labels = document.getElementsByTagName("label")
+form = document.getElementById("form-container")
 
 for (let input of inputs) {
     input.addEventListener("focusout", () => {
@@ -24,5 +24,9 @@ submitButton.addEventListener("click", () => {
     for (let input of inputs) {
         input.value = "";
         input.parentNode.childNodes[3].style.visibility = "visible";
+        form.classList.toggle("vertTranslate")
+        setTimeout(function(){
+            form.style.display = 'none';
+        }, 2000); 
     }
 });

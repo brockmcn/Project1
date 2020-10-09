@@ -1,9 +1,18 @@
+main {
+    min-height: 55vh;
+}
+
 #form-container {
     margin: auto auto;
     width: 500px;
     height: 500px;
     background-color: rgb(50, 50, 50);
     color: whitesmoke;
+}
+
+#form-container.vertTranslate {
+    transform: translate(0, 800px);
+    transition: transform 2s cubic-bezier(0.6, -0.2, 0.5, 1);
 }
 
 h3 {
@@ -44,6 +53,11 @@ input:focus + label, #conditions > textarea:focus + label {
     color: turquoise;
     transition: all 0.2s ease-in-out;
     opacity: 1;
+}
+
+input + label, #conditions > textarea + label {
+    color: whitesmoke;
+    transition: all 0.2s ease-in-out;
 }
 
 #form {
@@ -98,7 +112,7 @@ textarea {
 }
 
 #conditions > label {
-    bottom: 85%;
+    bottom: 87%;
     left: 2%;
 }
 
