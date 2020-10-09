@@ -25,6 +25,7 @@ h4 {
 }
 
 input, textarea {
+    width: 207px;
     font-size: 1.2em;
     padding: 3px;
     border: 2px solid darkgray;
@@ -78,6 +79,7 @@ textarea {
     border-radius: 5px;
     color: whitesmoke;
     font-weight: bold;
+    font-size: 1.2em;
 }
 
 #submit:hover {
@@ -107,16 +109,4 @@ label {
     pointer-events: none;
     opacity: 0.3;
     transform: translate(0, -100px);
-}
-
-input:-webkit-autofill,
-input:-webkit-autofill:hover, 
-input:-webkit-autofill:focus, 
-input:-webkit-autofill:active  {
-    box-shadow: none;
-    -webkit-box-shadow: 0 0 0 30px whitesmoke inset !important;
-}
-
-input:-webkit-autofill {
-    -webkit-text-fill-color: black !important;
 }
