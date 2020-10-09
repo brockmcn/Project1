@@ -23,5 +23,6 @@ for (let input of inputs) {
 submitButton.addEventListener("click", () => {
     for (let input of inputs) {
         input.value = "";
+        input.parentNode.childNodes[3].style.visibility = "visible";
     }
 });

@@ -108,3 +108,15 @@ label {
     opacity: 0.3;
     transform: translate(0, -100px);
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    box-shadow: none;
+    -webkit-box-shadow: 0 0 0 30px rgb(50, 50, 50) none !important;
+}
+
+input:-webkit-autofill {
+    -webkit-text-fill-color: whitesmoke !important;
+}
