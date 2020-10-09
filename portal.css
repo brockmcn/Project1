@@ -1,14 +1,79 @@
+#form-container {
+    margin: auto auto;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 1.5em;
+}
+
+input {
+    border: 2px solid darkgray;
+    border-radius: 3px;
+    background: transparent;
+    color: whitesmoke;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid turquoise;  
+}
+
+input:focus + label {
+    bottom: 100%;
+    color: turquoise;
+    transition: all 0.2s ease-in-out;
+    opacity: 1;
+}
+
 #form {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto auto;
+    padding: 20px;
+    width: 90%;
+    gap: 15px 10px;
+    color: whitesmoke;
 }
 
-#fname {
-    grid-column: 1;
-    grid-row: 1;
+#submit {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 30%;
+    padding: 10px;
+    justify-self: center;
+    background-color: transparent;
+    color: darkgray;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: whitesmoke;
+    font-weight: bold;
 }
 
-#lname {
-    grid-column: 1;
-    grid-row: 2;
+#submit:hover {
+    cursor: pointer;
+    background-color: rgb(25, 25, 25);
+}
+
+#submit:active {
+    background-color: rgb(75, 75, 75);
+}
+
+#submit:focus {
+    outline: none;
+}
+
+label {
+    position: relative;
+    left: 3%;
+    bottom: 49%;
+    pointer-events: none;
+    opacity: 0.3;
+    transform: translate(0, -100px);
 }

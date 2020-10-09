@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="secondary-page.css">
     <link rel="stylesheet" href="portal.css">
 
     <title>Civsalu Healthcare</title>
@@ -14,7 +15,9 @@
     <header>
         <div id="top-bar-title">
             <div id="civsalu"><img src="images/salutem-icon.png" alt="Civsalu Icon">
-                <a href="index.html"><h1>CIVSALU</h1></a>
+                <a href="index.html">
+                    <h1>CIVSALU</h1>
+                </a>
                 <p>"For citizens, by citizens"</p>
                 <div id="menu-button">&#9776;</div>
             </div>
@@ -28,14 +31,30 @@
     </header>
 
     <main>
-        <div id="form">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" autocomplete="off">
+        <h2>Civsalu Healthcare Portal</h2>
+        <div id="form-container">
+            <h3>Create your Civsalu Account</h3>
+            <div id="form">
+                <div id="fname">
+                    <input type="text" autocomplete="off">
+                    <label>First name</label>
+                </div>
+                <div id="lname">
+                    <input type="text" autocomplete="off">
+                    <label>Last name</label>
+                </div>
+                <div id="email">
+                    <input type="text" autocomplete="off">
+                    <label>Email address</label>
+                </div>
+                <div id="phone">
+                    <input type="text" autocomplete="off">
+                    <label>Phone number</label>
+                </div>
 
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" autocomplete="off">
 
-            <input type="submit" value="Submit">
+                <button id="submit">Submit</button>
+            </div>
         </div>
     </main>
 
