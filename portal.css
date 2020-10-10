@@ -115,15 +115,24 @@ textarea {
     outline: none;
 }
 
-#submit-text {
-    visibility: hidden;
+#submit-text-container {
+    pointer-events: none;
+    opacity: 0;
     width: 100vw;
     position: absolute;
     text-align: center;
-    top: 40%;
+    top: 50%;
     font-size: 2em;
     font-weight: bold;
     font-family: sans-serif;
+    color: whitesmoke;
+}
+
+#submit-text {
+    margin: auto auto;
+    padding: 20px;
+    background-color: rgb(50, 50, 50);
+    width: 50%;
 }
 
 #conditions > label {
@@ -138,4 +147,34 @@ label {
     pointer-events: none;
     opacity: 0.3;
     transform: translate(0, -100px);
+}
+
+#fill-warning {
+    visibility: hidden;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+#submit-text > p:nth-child(1)
+{
+    margin: 0;
+    margin-bottom: 25px;
+    color: turquoise;
+}
+
+#submit-text > p:nth-child(2)
+{
+    margin: 0;
+    margin-bottom: 2px;
+    font-size: 0.8em;
+}
+
+#submit-text > p:nth-child(3)
+{
+    margin: 0;
+    font-size: 0.5em;
 }
