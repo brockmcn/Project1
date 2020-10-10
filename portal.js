@@ -26,7 +26,7 @@ submitButton.addEventListener("click", () => {
         input.parentNode.childNodes[3].style.visibility = "visible";
         form.classList.toggle("vertTranslate")
         setTimeout(function(){
-            form.style.display = 'none';
+            form.style.visibility = 'hidden';
         }, 2000); 
     }
 });
