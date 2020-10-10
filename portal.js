@@ -8,6 +8,7 @@ inputs = [
 submitButton = document.getElementById("submit")
 labels = document.getElementsByTagName("label")
 form = document.getElementById("form-container")
+submitText = document.getElementById("submit-text")
 
 for (let input of inputs) {
     input.addEventListener("focusout", () => {
@@ -24,9 +25,12 @@ submitButton.addEventListener("click", () => {
     for (let input of inputs) {
         input.value = "";
         input.parentNode.childNodes[3].style.visibility = "visible";
-        form.classList.toggle("vertTranslate")
-        setTimeout(function(){
-            form.style.visibility = 'hidden';
-        }, 2000); 
     }
+    form.classList.toggle("vertTranslate")
+    setTimeout(function(){
+        form.style.visibility = 'hidden';
+    }, 2000);
+    setTimeout(function(){
+        submitText.style.visibility = 'visible';
+    }, 1500);
 });

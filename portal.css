@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 main {
     min-height: 55vh;
 }
@@ -11,8 +15,8 @@ main {
 }
 
 #form-container.vertTranslate {
-    transform: translate(0, 100vh);
-    transition: transform 2s cubic-bezier(0.6, -0.2, 0.5, 1);
+    transform: translate(120vw, 0);
+    transition: transform 2s cubic-bezier(0.6, -0.2, 0.8, 1);
 }
 
 h3 {
@@ -109,6 +113,17 @@ textarea {
 
 #submit:focus {
     outline: none;
+}
+
+#submit-text {
+    visibility: hidden;
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: sans-serif;
 }
 
 #conditions > label {
