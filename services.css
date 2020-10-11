@@ -67,6 +67,10 @@ a:hover {
 
 @media (max-width: 900px)
 {
+    h2 {
+        font-size: 1.8em;
+    }
+
     .letter {
         grid-column-start: 1;
         grid-column-end: 3;

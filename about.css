@@ -1,0 +1,36 @@
+#container {
+    margin: auto auto;
+    background: rgb(50, 50, 50);
+    width: 80%;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+h3 {
+    color: turquoise;
+    padding: 0;
+    font-size: 2em;
+    text-decoration: none;
+    text-align: left;
+}
+
+p {
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+#awareness {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    color: turquoise;
+    font-size: 1.2em;
+}
+
+a > img {
+    background-color: whitesmoke;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+}
