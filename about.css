@@ -35,6 +35,11 @@ a > img {
     height: 200px;
 }
 
+a {
+    text-decoration: none;
+    color: turquoise;
+}
+
 @media (max-width: 900px) {
     #awareness {
         flex-direction: column;
