@@ -186,7 +186,7 @@ label {
 
     #form-container.vertTranslate {
         transform: translate(120vw, 0);
-        transition: transform 1.7s cubic-bezier(0.6, -0.8, 0.8, 1);
+        transition: transform 1.7s cubic-bezier(0.6, -0.2, 0.8, 1);
     }
 
     h3 {
