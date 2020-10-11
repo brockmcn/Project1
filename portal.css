@@ -213,11 +213,11 @@ label {
         justify-self: left;
     }
 
-    input {
+    input, textarea {
         width: 90%;
     }
 
-    textarea {
-        width: 100%;
+    #submit-text-container {
+        font-size: 1.5em;
     }
 }
