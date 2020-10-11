@@ -34,3 +34,17 @@ a > img {
     width: 200px;
     height: 200px;
 }
+
+@media (max-width: 900px) {
+    #awareness {
+        flex-direction: column;
+    }
+
+    figcaption {
+        padding-bottom: 30px;
+    }
+
+    #breast-aware > figcaption {
+        padding-bottom: 15px;
+    }
+}
