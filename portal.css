@@ -2,10 +2,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    min-height: 55vh;
-}
-
 #form-container {
     margin: auto auto;
     width: 500px;
@@ -199,13 +195,13 @@ label {
     }
 
     #form-container {
-        width: 90vw;
-        min-height: 640px;
+        width: 350px;
+        height: 620px;
     }
 
     #form {
         justify-items: left;
-        gap: 15px 0px;
+        gap: 13px 0px;
     }
     
     #fname, #lname, #email, #phone {
@@ -225,9 +221,5 @@ label {
 
     textarea {
         width: 100%;
-    }
-
-    #fill-warning {
-        margin: 10px;
     }
 }
