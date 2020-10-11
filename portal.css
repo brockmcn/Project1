@@ -2,14 +2,9 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    min-height: 55vh;
-}
-
 #form-container {
     margin: auto auto;
     width: 500px;
-    height: 500px;
     background-color: rgb(50, 50, 50);
     color: whitesmoke;
 }
@@ -200,7 +195,6 @@ label {
 
     #form-container {
         width: 350px;
-        height: 620px;
     }
 
     #form {
