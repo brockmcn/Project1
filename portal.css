@@ -207,6 +207,10 @@ label {
         grid-column: 1;
     }
 
+    #conditions {
+        width: 320px;
+    }
+
     label {
         left: 2%;
         bottom: 50%;
