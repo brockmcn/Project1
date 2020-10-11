@@ -103,11 +103,10 @@ textarea {
 
 #submit-text-container {
     pointer-events: none;
-    opacity: 0;
-    width: 100vw;
     position: absolute;
-    text-align: center;
     top: 50%;
+    width: 100vw;
+    text-align: center;
     font-size: 2em;
     font-weight: bold;
     font-family: sans-serif;
