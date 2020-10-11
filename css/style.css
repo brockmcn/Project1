@@ -125,8 +125,6 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    font-weight: bold;
-    font-size: 2em;
     border-bottom: 1px solid darkgray;
 }
 
@@ -136,10 +134,13 @@ footer {
     width: 50%;
 }
 
-#footer-info > ul >li {
+ul > :first-child {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+#footer-info > ul > li {
     padding: 5px;
-    font-size: 0.5em;
-    font-weight: normal;
 }
 
 #copyright {
