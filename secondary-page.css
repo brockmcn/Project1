@@ -6,3 +6,12 @@ h2 {
     padding: 20px;
     margin-bottom: 50px;
 }
+
+h3 {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}

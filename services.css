@@ -1,0 +1,60 @@
+#services-container {
+    margin: auto auto;
+    width: 60vw;
+    background-color: rgb(50, 50, 50);
+    color: whitesmoke;
+}
+
+#services {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5px 0px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#letter-nav {
+    margin: auto;
+    max-width: 50vw;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 1px solid darkgray;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+.no-letter {
+    color: rgb(80, 80, 80);
+}
+
+.no-letter:hover {
+    color: rgb(80, 80, 80);
+}
+
+.letter > p {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-decoration: underline;
+}
+
+.letter > ul {
+    margin: 0;
+    padding: 0;
+}
+
+.letter > ul > li {
+    padding: 3px;
+    list-style-type: none;
+}
