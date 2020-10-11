@@ -25,7 +25,7 @@ for (let input of inputs) {
     });
 }
 
-function show() {
+function showSubmission() {
     if (opacity < 1) {
         opacity = opacity + 0.1;
         submitText.style.opacity = opacity
@@ -42,9 +42,8 @@ function submit() {
         form.style.visibility = 'hidden';
     }, 2000);
     setTimeout(function () {
-        console.log(verification.innerHTML)
         verification.innerHTML += email + '"'
-        setInterval(show, 25)
+        setInterval(showSubmission, 25)
     }, 1500);
 }
 

@@ -178,3 +178,56 @@ label {
     margin: 0;
     font-size: 0.5em;
 }
+
+@media (max-width: 900px)
+{
+    main {
+        overflow-x: hidden;
+    }
+
+    #submit-text {
+        width: 80%;
+    }
+
+    #form-container.vertTranslate {
+        transform: translate(120vw, 0);
+        transition: transform 1.7s cubic-bezier(0.6, -0.2, 0.8, 1);
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    #form-container {
+        width: 90vw;
+        min-height: 640px;
+    }
+
+    #form {
+        justify-items: left;
+        gap: 15px 0px;
+    }
+    
+    #fname, #lname, #email, #phone {
+        width: 320px;
+        grid-column: 1;
+    }
+
+    label {
+        left: 2%;
+        bottom: 50%;
+        justify-self: left;
+    }
+
+    input {
+        width: 90%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    #fill-warning {
+        margin: 10px;
+    }
+}
