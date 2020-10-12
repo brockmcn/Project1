@@ -205,5 +205,6 @@ ul > :first-child {
 
     #footer-info {
         font-size: 0.7em;
+        color: purple;
     }
 }
