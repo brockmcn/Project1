@@ -135,7 +135,7 @@ footer {
     width: 50%;
 }
 
-ul > :first-child {
+#footer-info > ul > :first-child {
     font-weight: bold;
     font-size: 2em;
 }
